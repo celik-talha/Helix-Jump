@@ -1,0 +1,346 @@
+Unity Editor version:    2021.2.4f1 (99ba6aa4c552)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/talha/Documents/Unity Projects/HelixJump
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58060
+Successfully changed project path to: /Users/talha/Documents/Unity Projects/HelixJump
+/Users/talha/Documents/Unity Projects/HelixJump
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 66.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/talha/Documents/Unity Projects/HelixJump/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.4f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001160 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.407 seconds
+Domain Reload Profiling:
+	ReloadAssembly (408ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (295ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002208 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/talha/Documents/Unity Projects/HelixJump/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/talha/Documents/Unity Projects/HelixJump/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+- Completed reload, in  0.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (701ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (73.0 KB). Loaded Objects now: 3741.
+Memory consumption went from 215.4 MB to 215.3 MB.
+Total: 2.363833 ms (FindLiveObjects: 0.139083 ms CreateObjectMapping: 0.042542 ms MarkObjects: 2.106250 ms  DeleteObjects: 0.074875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216999.025000 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9990f39c3de691f85cda2915bc54e9c4') in 0.062198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.308088 seconds.
+  path: Assets/FBX
+  artifactKey: Guid(30bed40044c3741758495512c793e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX using Guid(30bed40044c3741758495512c793e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf8f7cffe51be980a45e307a57a1a91') in 0.001010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.230238 seconds.
+  path: Assets/FBX/plane1.blend
+  artifactKey: Guid(1fd3b8ba54ab944b0aa09de4ca254ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane1.blend using Guid(1fd3b8ba54ab944b0aa09de4ca254ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f148662562a26184def6df6e9f23979b') in 0.653562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.805318 seconds.
+  path: Assets/FBX/untitled.blend
+  artifactKey: Guid(e6d02b8cff7534c3e9647ff4039c0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/untitled.blend using Guid(e6d02b8cff7534c3e9647ff4039c0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56fa681239a602f61e142322350c28f') in 0.017642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 604.808329 seconds.
+  path: Assets/FBX/plane1.fbx
+  artifactKey: Guid(cefd50ec9aadf49db8566f40da7049db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane1.fbx using Guid(cefd50ec9aadf49db8566f40da7049db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f04cb20feb038ca4f65185cd81e7d96') in 0.033417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.637510 seconds.
+  path: Assets/FBX/plane1.fbx
+  artifactKey: Guid(cefd50ec9aadf49db8566f40da7049db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane1.fbx using Guid(cefd50ec9aadf49db8566f40da7049db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ced796cbf8571d4bb660b781d4c9a1') in 0.020421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.121973 seconds.
+  path: Assets/FBX/Cylinder.prefab
+  artifactKey: Guid(bbc7e44b8459045318309e0661779808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/Cylinder.prefab using Guid(bbc7e44b8459045318309e0661779808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d92b37b9e59592fe13c0b9479d5640') in 0.048494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 861.498411 seconds.
+  path: Assets/FBX/maincylinder.fbx
+  artifactKey: Guid(dcb401555a2fc48958ac12c1fce8d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/maincylinder.fbx using Guid(dcb401555a2fc48958ac12c1fce8d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6616e1975610a902666ff4670de94834') in 0.034899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 299.335405 seconds.
+  path: Assets/FBX/maincylinder2.fbx
+  artifactKey: Guid(3950c14c8a53c497699e12eefa586093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/maincylinder2.fbx using Guid(3950c14c8a53c497699e12eefa586093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c45e73baaa14cd6f27955f4013d3d0') in 0.019933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1575.607203 seconds.
+  path: Assets/FBX/plane2.fbx
+  artifactKey: Guid(5e130efc0cc34440cb3f32eeaf78ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane2.fbx using Guid(5e130efc0cc34440cb3f32eeaf78ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abea9a16e3954babebf65665dac43b14') in 0.029336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 409.716029 seconds.
+  path: Assets/FBX/plane3.fbx
+  artifactKey: Guid(e7a519faac92c480e84d87d0b2747dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane3.fbx using Guid(e7a519faac92c480e84d87d0b2747dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5dc7a784051bc733e6a4b57eee8ecc') in 0.021755 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001183 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x282dcb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/talha/Documents/Unity Projects/HelixJump/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/talha/Documents/Unity Projects/HelixJump/Library/PackageCache/com.unity.visualscripting@1.7.5/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (169ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3294 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (49.6 KB). Loaded Objects now: 3754.
+Memory consumption went from 236.9 MB to 236.8 MB.
+Total: 2.188792 ms (FindLiveObjects: 0.108334 ms CreateObjectMapping: 0.039875 ms MarkObjects: 1.995791 ms  DeleteObjects: 0.044084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 549.602946 seconds.
+  path: Assets/FBX/plane4.fbx
+  artifactKey: Guid(c6c0bb23dadaf4724942ddda7a6fbc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane4.fbx using Guid(c6c0bb23dadaf4724942ddda7a6fbc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57031125d4750e68fdf6a030f97236e4') in 0.094606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1471.429152 seconds.
+  path: Assets/FBX/plane5.fbx
+  artifactKey: Guid(5d69b212ee14c4ff5808e184cb9e179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane5.fbx using Guid(5d69b212ee14c4ff5808e184cb9e179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978b3fe8a269fbb51552117e5c3d56a1') in 0.032376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.303218 seconds.
+  path: Assets/FBX/plane5.fbx
+  artifactKey: Guid(5d69b212ee14c4ff5808e184cb9e179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane5.fbx using Guid(5d69b212ee14c4ff5808e184cb9e179f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fff3764ee42d04fc5f585c0f8b0311') in 0.016535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.151316 seconds.
+  path: Assets/FBX/plane6.fbx
+  artifactKey: Guid(c5eb1a7bc9b77427ea9568ef119e3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane6.fbx using Guid(c5eb1a7bc9b77427ea9568ef119e3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5ac216775cf5916b453c81f6b42993') in 0.021176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.530170 seconds.
+  path: Assets/FBX/plane6.fbx
+  artifactKey: Guid(c5eb1a7bc9b77427ea9568ef119e3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/plane6.fbx using Guid(c5eb1a7bc9b77427ea9568ef119e3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bf2f87f401d0afd535348b0187bbf8') in 0.013904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.668941 seconds.
+  path: Assets/FBX/cylindermain.fbx
+  artifactKey: Guid(9fb93fb41c3a54f1f8877c7568277e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/cylindermain.fbx using Guid(9fb93fb41c3a54f1f8877c7568277e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2a170918d40fdc2816b8390822bc87') in 0.024961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.954609 seconds.
+  path: Assets/FBX/cylindermain.fbx
+  artifactKey: Guid(9fb93fb41c3a54f1f8877c7568277e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FBX/cylindermain.fbx using Guid(9fb93fb41c3a54f1f8877c7568277e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c60b4ab6fb48302835b547f0d1bb488') in 0.013134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.985203 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(c850ee8c3b14cc8459e7e186857cf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac451764054393afaac47681fc726d48') in 0.002401 seconds 
