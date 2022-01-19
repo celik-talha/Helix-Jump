@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Plane
   - Drop
+  - Fail
+  - Pass
   layers:
   - Default
   - TransparentFX
