@@ -21,9 +21,10 @@ public class BallScript : MonoBehaviour
     float startX;
     float deltaX;
     float rotationSpeed = 0.4f;
-    string key;
     bool isLive = true;
 
+    GameObject parent;
+    string key;
     void Start()
     {
         ballRb = gameObject.GetComponent<Rigidbody>();
@@ -56,7 +57,6 @@ public class BallScript : MonoBehaviour
                 }
             }
         }
-        Debug.Log(ballRb.velocity.y);
     }
     void FixedUpdate()
     {
@@ -76,7 +76,7 @@ public class BallScript : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.CompareTag("Plane"))
-        {
+        {   
             if (isLive)
             {
                 camLet(0);
@@ -107,7 +107,6 @@ public class BallScript : MonoBehaviour
     
     void camLet(int x)
     {
-        
         if (x == 1)
         {
             letSlide = true;

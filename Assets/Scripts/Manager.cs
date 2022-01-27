@@ -34,4 +34,8 @@ public class Manager : MonoBehaviour
     {
         failedPanel.SetActive(true);
     }
+    public void startGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
