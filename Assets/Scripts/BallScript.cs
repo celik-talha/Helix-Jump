@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BallScript : MonoBehaviour
 {
+    public AudioManager audioScript;
     public Manager managerScript;
     public GameObject platform;
     public GameObject cam;
@@ -82,6 +83,7 @@ public class BallScript : MonoBehaviour
                 camLet(0);
                 ballRb.velocity = Vector3.zero;
                 ballRb.AddForce(Vector3.up * 250f * jumpModifier);
+                audioScript.playJump();
             }
         }
         else if (collision.transform.CompareTag("Fail"))
